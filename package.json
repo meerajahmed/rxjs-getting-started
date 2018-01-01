@@ -1,0 +1,37 @@
+{
+  "name": "rxjs-getting-started",
+  "version": "1.0.0",
+  "description": "Exploring reactive programming using RxJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot",
+    "build": "webpack",
+    "postinstall": "typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meerajahmed/rxjs-getting-started.git"
+  },
+  "keywords": [
+    "RxJS"
+  ],
+  "author": "Meeraj Ahmed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meerajahmed/rxjs-getting-started/issues"
+  },
+  "homepage": "https://github.com/meerajahmed/rxjs-getting-started#readme",
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  },
+  "devDependencies": {
+    "css-loader": "^0.28.7",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.19.1",
+    "ts-loader": "^3.2.0",
+    "typescript": "^2.6.2",
+    "typings": "^2.1.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
