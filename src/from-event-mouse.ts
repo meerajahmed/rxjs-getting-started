@@ -7,7 +7,7 @@ import "./from-event.css"
 let circle = document.getElementById("circle");
 
 // wire up event handler from DOM element
-let emitter = Observable.fromEvent(document, "mousemove")
+let emitter = Observable.fromEvent(document, "click")
     .map((e: MouseEvent) => {
             return {
                 x: e.clientX,
